@@ -1,4 +1,4 @@
-# Indy
+# New Social Network
 
 ## Build Setup
 
