@@ -1,0 +1,56 @@
+{
+  "IconComment": {
+    "description": "Auto imported from components/IconComment.vue"
+  },
+  "LazyIconComment": {
+    "description": "Auto imported from components/IconComment.vue"
+  },
+  "IconHome": {
+    "description": "Auto imported from components/IconHome.vue"
+  },
+  "LazyIconHome": {
+    "description": "Auto imported from components/IconHome.vue"
+  },
+  "IconLike": {
+    "description": "Auto imported from components/IconLike.vue"
+  },
+  "LazyIconLike": {
+    "description": "Auto imported from components/IconLike.vue"
+  },
+  "IconLogo": {
+    "description": "Auto imported from components/IconLogo.vue"
+  },
+  "LazyIconLogo": {
+    "description": "Auto imported from components/IconLogo.vue"
+  },
+  "IconMail": {
+    "description": "Auto imported from components/IconMail.vue"
+  },
+  "LazyIconMail": {
+    "description": "Auto imported from components/IconMail.vue"
+  },
+  "IconUser": {
+    "description": "Auto imported from components/IconUser.vue"
+  },
+  "LazyIconUser": {
+    "description": "Auto imported from components/IconUser.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "LazyNavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "PostComment": {
+    "description": "Auto imported from components/PostComment.vue"
+  },
+  "LazyPostComment": {
+    "description": "Auto imported from components/PostComment.vue"
+  },
+  "UserPost": {
+    "description": "Auto imported from components/UserPost.vue"
+  },
+  "LazyUserPost": {
+    "description": "Auto imported from components/UserPost.vue"
+  }
+}
