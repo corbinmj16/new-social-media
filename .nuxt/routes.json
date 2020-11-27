@@ -5,5 +5,12 @@
     "component": "/Users/corbin/Web/new-social-media/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_3d83e7ea"
+  },
+  {
+    "name": "user-post",
+    "path": "/:user/:post?",
+    "component": "/Users/corbin/Web/new-social-media/pages/_user/_post.vue",
+    "chunkName": "pages/_user/_post",
+    "_name": "_f322221c"
   }
 ]

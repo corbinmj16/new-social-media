@@ -4,6 +4,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _3d83e7ea = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _f322221c = () => interopDefault(import('../pages/_user/_post.vue' /* webpackChunkName: "pages/_user/_post" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -25,6 +26,10 @@ export const routerOptions = {
     path: "/",
     component: _3d83e7ea,
     name: "index"
+  }, {
+    path: "/:user/:post?",
+    component: _f322221c,
+    name: "user-post"
   }],
 
   fallback: false

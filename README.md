@@ -1,5 +1,9 @@
 # New Social Network
 
+## Questions
+
+- Do we need a like button? This causes issues with Dopamine. We don't want this.
+
 ## Build Setup
 
 ```bash
