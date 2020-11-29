@@ -11,13 +11,17 @@
 
     <h2 v-if="loading">Loading</h2>
 
-    <div class="posts" v-else>
-      <Post
-        v-for="(post, index) in posts"
-        :key="index"
-        :post="post"
-      />
-    </div>
+    <main v-else>
+      <NewPost />
+
+      <div class="posts">
+        <Post
+          v-for="(post, index) in posts"
+          :key="index"
+          :post="post"
+        />
+      </div>
+    </main>
   </div>
 </template>
 

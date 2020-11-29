@@ -41,6 +41,12 @@
   "LazyNavBar": {
     "description": "Auto imported from components/NavBar.vue"
   },
+  "NewPost": {
+    "description": "Auto imported from components/NewPost.vue"
+  },
+  "LazyNewPost": {
+    "description": "Auto imported from components/NewPost.vue"
+  },
   "Post": {
     "description": "Auto imported from components/Post.vue"
   },
