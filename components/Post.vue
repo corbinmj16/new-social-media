@@ -1,14 +1,18 @@
 <template>
-  <NuxtLink :to="`${post.userId}/${post.id}`">
+  <NuxtLink :to="`${post.userId}/${post.id}`" class="post-link">
     <div class="post">
       <div class="post__left">
         <div class="img">
-          <IconUser />
+          <NuxtLink :to="`${post.userId}`">
+            <IconUser />
+          </NuxtLink>
         </div>
       </div>
       <div class="post__right">
         <div class="post-header">
-          <h3>{{ post.userId }}</h3>
+          <NuxtLink :to="`${post.userId}`">
+            <h3>{{ post.userId }}</h3>
+          </NuxtLink>
           <ul class="post-header__meta">
             <li>{{ formattedTime }}</li>
           </ul>

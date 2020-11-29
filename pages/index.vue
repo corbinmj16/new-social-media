@@ -18,8 +18,6 @@
         :post="post"
       />
     </div>
-
-
   </div>
 </template>
 
@@ -45,7 +43,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.posts{
+.posts {
   margin: 20px 0;
   border-left: 1px solid $color-border;
   border-right: 1px solid $color-border;

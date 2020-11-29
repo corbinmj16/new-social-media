@@ -10,10 +10,3 @@ export default {
   name: 'IconHome',
 }
 </script>
-
-<style lang="scss" scoped>
-.icon-home {
-  width: 100%;
-  height: 100%;
-}
-</style>

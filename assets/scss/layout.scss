@@ -1,11 +1,12 @@
 .app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  min-height: 775px;
 }
 
 .container {
-  width: calc(100% - 20px);
+  width: 100%;
   max-width: $feed-max-width;
   margin: 0 auto;
+  padding: 0 15px;
 }

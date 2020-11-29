@@ -7,10 +7,12 @@
 
       <ul class="nav">
         <li class="nav__item">
-          <IconUser />
+          <IconHome />
+          <span>Home</span>
         </li>
         <li class="nav__item">
-          <IconHome />
+          <IconUser />
+          <span>Profile</span>
         </li>
       </ul>
     </div>
@@ -25,19 +27,13 @@ export default {
 
 <style lang="scss">
 nav {
-  display: flex;
+  position: relative;
   background-color: $color-light-gray;
-  padding: 10px;
-  width: 100%;
-}
+  width: $nav-width-mobile;
 
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: $nav-max-width;
-  width: 100%;
-  margin: 0 auto;
+  @include for-desktop {
+    width: $nav-width-desktop;
+  }
 }
 
 .nav-logo {
@@ -46,25 +42,59 @@ nav {
   height: 70px;
 }
 
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: $nav-width-mobile;
+
+  @include for-desktop {
+    width: $nav-width-desktop;
+  }
+}
+
 .nav {
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px auto 0;
+
+  @include for-desktop {
+    width: calc(100% - 30px);
+  }
 
   &__item {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     color: $color-blue;
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    width: 100%;
+    margin: 0 0 10px;
 
     &:last-child {
-      margin-right: 0;
+      margin: 0;
     }
 
     &:hover {
       color: $color-blue-hover;
       cursor: pointer;
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    span {
+      display: none;
+
+      @include for-desktop {
+        display: inline-flex;
+        margin: 0 20px;
+        font-size: 19px;
+        font-weight: bold;
+      }
     }
   }
 }
